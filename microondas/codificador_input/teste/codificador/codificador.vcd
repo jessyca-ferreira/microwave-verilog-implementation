@@ -1,0 +1,77 @@
+$date
+	Sun Apr 23 14:47:12 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module codificador_tb $end
+$var wire 1 ! valido $end
+$var wire 4 " BCD [3:0] $end
+$var reg 1 # enablen $end
+$var reg 10 $ teclado [9:0] $end
+$scope module dut $end
+$var wire 1 # enablen $end
+$var wire 10 % teclado [9:0] $end
+$var reg 4 & BCD [3:0] $end
+$var reg 1 ! valido $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1001 &
+b1000000000 %
+b1000000000 $
+1#
+b1001 "
+0!
+$end
+#100000
+b1000 "
+b1000 &
+b100000000 $
+b100000000 %
+#200000
+b111 "
+b111 &
+b10000000 $
+b10000000 %
+#300000
+b110 "
+b110 &
+b1000000 $
+b1000000 %
+#400000
+b101 "
+b101 &
+b100000 $
+b100000 %
+#500000
+b100 "
+b100 &
+b10000 $
+b10000 %
+#600000
+b11 "
+b11 &
+b1000 $
+b1000 %
+#700000
+b10 "
+b10 &
+b100 $
+b100 %
+#800000
+b1 "
+b1 &
+b10 $
+b10 %
+#900000
+b0 "
+b0 &
+b1 $
+b1 %
+#1000000

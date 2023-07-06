@@ -1,0 +1,73 @@
+$date
+	Sun Apr 23 14:42:46 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module decoder_tb $end
+$var wire 7 ! seg_unidades [6:0] $end
+$var wire 7 " seg_minutos [6:0] $end
+$var wire 7 # seg_dezenas [6:0] $end
+$var reg 4 $ minutos [3:0] $end
+$var reg 4 % sec_dezenas [3:0] $end
+$var reg 4 & sec_unidades [3:0] $end
+$scope module dut $end
+$var wire 4 ' minutos [3:0] $end
+$var wire 4 ( sec_dezenas [3:0] $end
+$var wire 4 ) sec_unidades [3:0] $end
+$var reg 7 * seg_dezenas [6:0] $end
+$var reg 7 + seg_minutos [6:0] $end
+$var reg 7 , seg_unidades [6:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1011011 ,
+b1101101 +
+b1111011 *
+b101 )
+b1001 (
+b10 '
+b101 &
+b1001 %
+b10 $
+b1111011 #
+b1101101 "
+b1011011 !
+$end
+#100000
+b1111110 "
+b1111110 +
+b110000 #
+b110000 *
+b1111111 !
+b1111111 ,
+b0 $
+b0 '
+b1 %
+b1 (
+b1000 &
+b1000 )
+#200000
+b1011111 "
+b1011111 +
+b110011 #
+b110011 *
+b1111001 !
+b1111001 ,
+b110 $
+b110 '
+b100 %
+b100 (
+b11 &
+b11 )
+#300000
+b1110000 "
+b1110000 +
+b111 $
+b111 '
+#400000

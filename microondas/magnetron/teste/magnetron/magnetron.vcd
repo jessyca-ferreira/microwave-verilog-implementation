@@ -1,0 +1,83 @@
+$date
+	Sun Apr 23 15:13:02 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module magnetron_tb $end
+$var wire 1 ! ligar $end
+$var reg 1 " clrn $end
+$var reg 1 # porta_fechada $end
+$var reg 1 $ startn $end
+$var reg 1 % stopn $end
+$var reg 1 & zero $end
+$scope module dut $end
+$var wire 1 " clrn $end
+$var wire 1 # porta_fechada $end
+$var wire 1 $ startn $end
+$var wire 1 % stopn $end
+$var wire 1 & zero $end
+$var wire 1 ' s $end
+$var wire 1 ( r $end
+$var wire 1 ! ligar $end
+$scope module latchsr $end
+$var wire 1 ' s $end
+$var wire 1 ( r $end
+$var reg 1 ! out $end
+$upscope $end
+$scope module sr $end
+$var wire 1 " clrn $end
+$var wire 1 # porta_fechada $end
+$var wire 1 $ startn $end
+$var wire 1 % stopn $end
+$var wire 1 & zero $end
+$var wire 1 ' s $end
+$var wire 1 ( r $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0(
+0'
+0&
+1%
+1$
+1#
+1"
+x!
+$end
+#50000
+1!
+1'
+0$
+#100000
+0!
+1(
+0'
+0#
+1$
+#150000
+1&
+1#
+#200000
+1!
+1(
+1'
+0&
+0"
+0$
+#250000
+0!
+0'
+0#
+1"
+1$
+#300000
+0%
+0$
+#350000

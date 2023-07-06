@@ -1,0 +1,55 @@
+$date
+	Sun Apr 23 15:08:49 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module control_tb $end
+$var wire 1 ! s $end
+$var wire 1 " r $end
+$var reg 1 # clrn $end
+$var reg 1 $ porta_fechada $end
+$var reg 1 % startn $end
+$var reg 1 & stopn $end
+$var reg 1 ' zero $end
+$scope module dut $end
+$var wire 1 # clrn $end
+$var wire 1 $ porta_fechada $end
+$var wire 1 % startn $end
+$var wire 1 & stopn $end
+$var wire 1 ' zero $end
+$var wire 1 ! s $end
+$var wire 1 " r $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0'
+1&
+1%
+1$
+0#
+1"
+0!
+$end
+#100000
+0$
+1#
+0%
+#200000
+0#
+1%
+#300000
+1'
+#400000
+0"
+1!
+0'
+1$
+1#
+0%
+#500000
